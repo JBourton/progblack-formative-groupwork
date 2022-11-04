@@ -1,0 +1,19 @@
+/* Styling tags for the images in ai-safety.html, but can reuse in other files as centered around bootstrap */
+.one_third_img {
+    width: 33%;
+    height: 100%;
+}
+
+.one_quarter_img {
+    width: 25%;
+    height: 100%;
+}
+
+.two_thirds_img {
+    width: 66%;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+}
