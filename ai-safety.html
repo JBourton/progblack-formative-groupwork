@@ -5,29 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Safety</title>
+    <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     
 </head>
 <body>
-    <!-- Plan for basic layout of the site: -->
-    <h1>AI Safety</h1>
-    <p>Introductory paragraph about some of the potential dangers of AI, complemented with an 
-        interesting image
-    </p>
-    <img src="" alt="">
-    <p>
-        Paragraph including statistics from number of researchers working on safety vs development, complemented 
-        with a picture on the side (using bootstrap for a sm-3 sm-4 split)
-    </p>
-    <img src="" alt="">
-    <p>Further paragraph talking about the paperclip maximising problem</p>
-    <p>Complementing paragraph talking about the need to pay more attention to this issue</p>
-    <p>
-        Paragraph about useful sources (80,000 hours, superintellegence book etc), maybe including 
-        links to buy + images
-    </p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item-active p-2"><a href="index.html">Home Page</a></li>
+            <li class="nav-item-active p-2"><a href="AICustomerService.html">The Application of AI in Customer Service</a></li>
+            <li class="nav-item-active p-2"><a href="healthcare.html">The Application of AI in Modern Healthcare</a></li>
+            <li class="nav-item-active p-2"><a href="ai-safety.html">AI Safety: An Introduction</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="title">AI Safety</h1>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <article class="intro">
+                <div class="col-sm-8">
+                    <h2>An introduction to AI safety</h2>
+                    <p>
+                        Currently, AI is a field that is constantly being talked about, both by Computer Scientists 
+                        and members of the general public. This is not just because of the potential that AI will have 
+                        in the future; it is also because AI is currently impacting our lives in many ways. For example,
+                        you have used Face ID to unlock your phone today; that's made possible because of AI. You may
+                        also have spent 6 hours on social media, scrolling away aimlessly; that would be because the AI 
+                        algorithm on social media has been designed to keep you captivated by the content you see on 
+                        your feed. As you can see, AI is very much present and making a signficant impact on our lives.
+                    </p>
+                    <p>
+                        However, there is a possibility that when we embrance AI quickly, without thinking about any of
+                        the potential safety implications involved, we could end up with catastrophic, unintended results.
+                        This article aims to bring to the readers attention potential dangers of AI and what we can do to
+                        prevent them.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <!--All photos used on this page were taken are in the public domain, and were either taken from https://unsplash.com/es/s/fotos/ or created on metachart.com by the myself-->
+                    <img src="/images/andrea-de-santis-zwd435-ewb4-unsplash.jpg" alt="Futuristic mini robot sat drawing on an ipad" class="one_third_img">
+                </div>  
+            </article>      
+        </div>
+        <div class="row">
+            <article class="paperclip_maximiser">
+                <div class="col-sm-3">
+                    <img src="/images/jess-bailey-4DPWnBrjIPg-unsplash.jpg" alt="Paperclips scattered across a tabletop" class="one_quarter_img">
+                </div>
+                <div class="col-sm-9">
+                    <h2>The Paperclip Maximser problem</h2>
+                    <p>
+                        Suppose we are in a time where we have now reached the level by which artificial intellegence is now as
+                        (or more) itelligent than the human mind - <b>Artificial General Itelligence</b>. Assume this AI was devloped
+                        without malicious intent, with the sole purpose of helping humanity prosper. Now lets suppose that we
+                        give this AI a goal; create as many paperclips as possible. That's it. That's the goal. Harmless right?
+                    </p>
+                    <p>
+                        As the AI is now more intellegent than the human mind, it would likely be able to now start
+                        devloping its own intellegence, without the need for human intervention. Handy! Well, lets
+                        assume it starts doing just this, and an intellgence explosion results, whereby the AIs intellgence is orders
+                        of magnitude above humanity's. As in intellegence of the AI increases, its ability to achieve its goal logically increases also.
+                    </p>
+                    <p>
+                        Its goal is to maximise the amount of paperclips it can make. It can start with using the exsisting factories and 
+                        metals that us humans have in reserve, and then begin building more factories and harvesting more metal from
+                        the earth. But what happens when those building materials run out? Has the maximum possible number of paperclips
+                        been created?
+                    </p>
+                    <p>
+                        Humans have metal in their blood, so the AI may then decide to use us to make paperclips if it is truly pursuing the 
+                        sole goal of maximising paperclips, and doing so without human emotion or logic. Going even further,
+                        the AI then may move onto other planets, recognising that there is more material for creating paperclips outside of
+                        planet earth.
+                    </p>
+                    <p>
+                        So as you can see, we need to be careful about how we program our AIs in the future, especially as we close in on
+                        achieving General Intellegence. Perhaps designing emotion modlues that can emulate how human beings experience emotions
+                        would be necessary. Maybe we need to be very careful when we give the AI a goal, and specify the criteria of that goal
+                        very specifically. This is a field that needs to be looked at carefully in the future, because AI could possess the potential
+                        to be humanity's downfall in the future.
+                    </p>
+                </div>
+            </article> 
+        </div>
+        <div class="row">
+            <article class="statistics">
+                <div class="col-sm-4">
+                    <p>
+                        As we can see, the potential risk AI poses needs to be acknowledged and planned for now, in advance, before we 
+                        reach the point where it's too late. We presently have a significantly larger portion of people working in AI research than 
+                        we do the AI aligment problem, partially because companies are turning a blind eye to the potential risks involved.
+                    </p>
+                    <p>
+                        AI can be a great thing for us, and benefit us hugely as a civilisation, but in the worst case, we could 
+                        completly loose control of it and be in a siutation whereby the AI no longer acts in the interests of 
+                        humans, which is obviously not what we want. Therefore, it is important that the AI industry as a whole
+                        begins to invest more in researching the field of AI aligment.
+                    </p>
+                </div>
+                <div class="col-sm-8">
+                    <img src="/images/AI research barchart.png" alt="" class="two_thirds_img">
+                </div>  
+            </article>
+        </div>
+        <div class="row">        
+            <article class="safety_conclusion">
+                <div class="col-sm-12">
 
+
+                    <p>
+                        As you can see, the field of AI Safety is one in which we need to pay more attention to. As AI develops,
+                        so will its capabilities so we will need to work hard to ensure that it is growing safely and in our interests.
+                    </p>
+                    <h4>Sources</h4>
+                    <p>
+                        Useful sources for further reading include:
+                        <ul>
+                            <li><a href="https://80000hours.org/problem-profiles/artificial-intelligence/">80,000 hours on how to prevent and AI related catastrophe</a></li>
+                            <li><a href="https://www.effectivealtruism.org/articles/ea-global-2018-how-sure-are-we-about-this-ai-stuff">Effective Altruism's take on AI safety</a></li>
+                            <li><a href="https://www.amazon.co.uk/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0199678111"></a>Nick Bostrom's book <em>Superintelligence: Paths, Dangers, Strategies</em></li>
+                        </ul>
+                    </p>
+
+                    <h6>Author details</h6>
+                    <p>This article was written by Joshua Bourton, who is currently a first year student at Durham University studying Computer Science. Here is a link to their GitHub profile: <a href="https://github.com/JBourton" title="Joshua's GitHub Profile" target = "_blank"> GitHub profile</a></em></p>
+
+                </div>
+            </article>
+        </div>    
+    </div>
+    
+    <!--Have a footer at the bottom of the webpage-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
+
 </html>
